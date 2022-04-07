@@ -1,0 +1,5 @@
+.wrapper {
+    display: grid;
+    width: 85%;
+    height: max-content;
+}

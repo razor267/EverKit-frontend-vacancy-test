@@ -1,0 +1,15 @@
+.error {
+    width: 80%;
+    font-family: 'Montserrat';
+}
+
+.title {
+    font-size: 36px;
+    margin: 0 24px;
+}
+
+.description {
+    margin-top: 140px;
+    text-align: center;
+    font-size: 18px;
+}

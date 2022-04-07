@@ -1,0 +1,262 @@
+.wrapper {
+    background: var(--white);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    border: solid 3px var(--white);
+    margin: 8px 0;
+    padding: 16px 0;
+    display: grid;
+    grid-template-columns: 5% 5% 20% 20% 15% 15% 15% auto ;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+            "id logo title priceWrapper volumeWrapper tvlWrapper usersWrapper arrow"
+            "description description description description description description description description";
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.wrapper:hover {
+    border: solid 3px var(--primary);
+}
+
+.id {
+    grid-area: id;
+    color: var(--gray);
+    padding-left: 21px;
+}
+
+.logo {
+    grid-area: logo;
+    padding-left: 8px;
+}
+
+.title {
+    grid-area: title;
+    padding-left: 16px;
+}
+
+.priceWrapper {
+    grid-area: priceWrapper;
+    padding-left: 16px;
+}
+
+.volumeWrapper {
+    grid-area: volumeWrapper;
+    padding-left: 8px;
+}
+
+.tvlWrapper {
+    grid-area: tvlWrapper;
+}
+
+.usersWrapper {
+    grid-area: usersWrapper;
+    padding-left: 32px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.name {
+    font-size: 21px;
+    color: var(--black);
+}
+
+.symbol {
+    font-size: 16px;
+    color: var(--primary);
+}
+
+.logo, .name, .symbol {
+    cursor: pointer;
+}
+
+.price {
+    color: var(--primary);
+}
+
+.hours24, .days7, .days365 {
+    font-size: 14px;
+}
+
+.volumeChangePercentage, .tvlChangePercentage {
+    color: var(--primary);
+    margin-left: 16px;
+}
+
+.usersLogo {
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.arrow {
+    grid-area: arrow;
+    justify-self: start;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.arrowRotate {
+    transform: rotate(180deg);
+}
+
+.dot {
+    padding: 0 6px;
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.plus {
+    color: var(--green);
+}
+
+.minus {
+    color: var(--red);
+}
+
+.zero {
+    color: var(--gray);
+}
+
+.description {
+    grid-area: description;
+    padding: 24px 24px 5px 24px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: var(--grayDark)
+}
+
+@media screen and (max-width: 1555px) {
+    .wrapper {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .symbol {
+        font-size: 14px;
+    }
+
+    .hours24, .days7, .days365 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .wrapper {
+        font-size: 18px;
+        grid-template-columns: 10% 25% 25% 30% auto ;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+        "id logo title priceWrapper arrow"
+        "id volumeWrapper tvlWrapper usersWrapper arrow"
+        "description description description description description"
+    }
+
+    .title, .usersWrapper {
+        padding-left: 0;
+    }
+
+    .name {
+        font-size: 21px;
+    }
+
+    .symbol {
+        font-size: 16px;
+    }
+
+    .hours24, .days7, .days365 {
+        font-size: 14px;
+    }
+
+    .volumeWrapper, .tvlWrapper, .usersWrapper {
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .symbol {
+        font-size: 14px;
+    }
+
+    .hours24, .days7, .days365 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wrapper {
+        font-size: 12px;
+        grid-template-columns: 10% 25% 25% 30% auto ;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+                "id logo title title arrow"
+                "id logo priceWrapper priceWrapper arrow"
+                "id volumeWrapper tvlWrapper usersWrapper arrow"
+                "description description description description description"
+    }
+
+    .priceWrapper {
+        padding-top: 24px;
+        padding-left: 0;
+    }
+
+    .volumeWrapper, .tvlWrapper, .usersWrapper {
+        padding-top: 24px;
+        align-items: center;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .symbol {
+        font-size: 12px;
+    }
+
+    .hours24, .days7, .days365 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        grid-template-columns: 10% 25% 50% auto ;
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+                "id logo title arrow"
+                "id logo priceWrapper arrow"
+                "id logo volumeWrapper arrow"
+                "id logo tvlWrapper arrow"
+                "id logo usersWrapper arrow"
+                "description description description description"
+    }
+
+    .id {
+        padding-left: 8px;
+    }
+
+    .logo {
+        padding-left: 0;
+        justify-self: center;
+    }
+
+    .volumeWrapper {
+        padding-left: 0;
+    }
+}

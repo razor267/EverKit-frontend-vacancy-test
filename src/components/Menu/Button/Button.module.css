@@ -1,0 +1,78 @@
+.button {
+    border-radius: 16px;
+    width: 224px;
+    display: grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: solid 3px white;
+}
+
+.buttonActive {
+    background: var(--white);
+    border: none;
+}
+
+.buttonActive:hover {
+    border: none;
+}
+
+.href {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.icon {
+    justify-self: center;
+}
+
+.icon svg {
+    fill: var(--white);
+}
+
+.iconActive svg{
+    fill: var(--primary)
+}
+
+.name {
+    font-family: 'Montserrat';
+    color: var(--white);
+    justify-self: left;
+}
+
+.nameActive {
+    color: var(--black);;
+}
+
+@media screen and (max-width: 1555px) {
+    .button {
+        border-radius: 16px;
+        width: 60%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .button {
+        border-radius: 16px;
+        width: 60%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .button {
+        align-self: center;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        height: 40px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,33 @@
+.app {
+    background: linear-gradient(201.66deg, #B380FD 12.94%, #6347F5 78.23%);
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 17% auto;
+    grid-template-areas: "menu content";
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.content {
+    grid-area: content;
+    background-color: var(--grayBackground);
+    border-radius: 32px 0 0 0;
+    padding: 32px;
+    display: grid;
+    justify-items: center;
+}
+
+@media screen and (max-width: 900px) {
+
+    .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content auto;
+        grid-template-areas: "menu" "content";
+    }
+
+    .content {
+        padding: 16px 0;
+    }
+}
