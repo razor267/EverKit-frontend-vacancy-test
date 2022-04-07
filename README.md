@@ -1,11 +1,10 @@
-# EverKit | React Frontend Developer Vacancy Task
+# EverKit-frontend-vacancy-test
 
-![Banner](banner.jpg)
+Проект был разработан как тестовое задание от HR-менеджера.
 
-## Task
+## Задание на разработку
 
-1. Сделать fork проекта к себе в github
-2. Сверстать сайт с сайдбар-меню и списком карточек-монет
+1. Сверстать сайт с сайдбар-меню и списком карточек-монет
    1. [Ссылка на дизайн в Figma](https://www.figma.com/file/hN5zMa5y5waJodthhXQeI6/EverKit-Frontend-Developer-Task)
    2. Сайт состоит из трех страниц:
       1. Список токенов
@@ -14,34 +13,39 @@
    3. Представьте, что это реальный проект и вам нужно организовать его структуру, базовые компоненты и дальнейшую верстку
    4. Можно добавлять в проект любые библиотеки
    5. Запросы к API для получения данных упрощаются до импорта из файлов `tokens.ts` и `menu.tsx`
-3. На что мы обратим внимание при проверке:
+2. На что мы обратим внимание при проверке:
    1. Верстка и стили
    2. Разделение на компоненты и организацию базовых компонентов/стилей
    3. Функциональный стиль в приоритете над классовым
-4. Реализация адаптивности не обязательна, но приветствуется. Попробуйте придумать самостоятельно, как она должна работать (куда и когда спрячется меню, как будут отображены карточки)
-5. Осуществить деплой проекта любым удобным для вас способом
-6. Прислать в форму заявки ссылки на github и сайт
+3. Реализация адаптивности не обязательна, но приветствуется. Попробуйте придумать самостоятельно, как она должна работать (куда и когда спрячется меню, как будут отображены карточки)
+4. Осуществить деплой проекта любым удобным для вас способом
+5. Прислать в форму заявки ссылки на github и сайт
 
-## Available Scripts
+## Результат
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Задание было выполнено в полном объёме. Дополнительно был разработан компонент Токена и реализован функционал поиска. Адаптивность приложения под различные разрешения экранов реализована.
 
-In the project directory, you can run:
+# Start
+```bash
+npm start
+```
+# Interface
+<p align="center"><img src="https://i.ibb.co/QfXnYqn/preview-project.gif" alt="ReviewProject" border="0"></p>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="right">
+  <a href="https://reactjs.org/">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  </a>
+   <a href="https://www.typescriptlang.org/">    
+    <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
+  </a>
+  <a href="https://www.w3.org/Style/CSS/">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  </a>
+  <a href="https://html.spec.whatwg.org/">    
+    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  </a>
+   <a href="https://www.figma.com/">    
+     <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" **alt="Figma" width="40" height="40"/>
+  </a>
+</div>
