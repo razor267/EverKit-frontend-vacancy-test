@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EverKit-frontend-vacancy-test/static/css/main.b1c109fb.css",
+    "main.css": "/EverKit-frontend-vacancy-test/static/css/main.c010c201.css",
     "main.js": "/EverKit-frontend-vacancy-test/static/js/main.8c46752d.js",
     "static/media/logo.svg": "/EverKit-frontend-vacancy-test/static/media/logo.313ac77ab9d001301efd469128023345.svg",
     "static/media/users.svg": "/EverKit-frontend-vacancy-test/static/media/users.0d5cf42de44aa3c5205e8672b7bbeaeb.svg",
     "index.html": "/EverKit-frontend-vacancy-test/index.html",
     "static/media/arrow.svg": "/EverKit-frontend-vacancy-test/static/media/arrow.869fb2d84dd9f6f51c6d1205821781c0.svg",
-    "main.b1c109fb.css.map": "/EverKit-frontend-vacancy-test/static/css/main.b1c109fb.css.map",
+    "main.c010c201.css.map": "/EverKit-frontend-vacancy-test/static/css/main.c010c201.css.map",
     "main.8c46752d.js.map": "/EverKit-frontend-vacancy-test/static/js/main.8c46752d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1c109fb.css",
+    "static/css/main.c010c201.css",
     "static/js/main.8c46752d.js"
   ]
 }
