@@ -61,4 +61,8 @@ input::placeholder {
     .button {
         top: 68px;
     }
+
+    input::placeholder {
+        font-size: 18px;
+    }
 }
