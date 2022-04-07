@@ -76,3 +76,14 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 400px) {
+
+    .button {
+        justify-items: center;
+    }
+
+    .name {
+        padding-left: 16px;
+    }
+}
