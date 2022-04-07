@@ -30,7 +30,7 @@
 npm start
 ```
 # Interface
-<p align="center"><img src="https://i.ibb.co/QfXnYqn/preview-project.gif" alt="ReviewProject" border="0"></p>
+<p align="center"><img src="https://i.ibb.co/8Bpgk9r/preview-project.gif" alt="ReviewProject" border="0"></p>
 
 <div align="right">
   <a href="https://reactjs.org/">
